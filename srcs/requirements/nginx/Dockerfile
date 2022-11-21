@@ -14,8 +14,8 @@ FROM    debian:buster
 
 RUN     apt update -y
 RUN     apt install -y nginx
-RUN     apt install -y vim
-RUN     apt install -y curl
+# RUN     apt install -y vim
+# RUN     apt install -y curl
 RUN     apt install -y openssl
 
 RUN     mkdir -p /etc/nginx/ssl
