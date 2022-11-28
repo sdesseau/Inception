@@ -56,13 +56,13 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/Users/stan/data/wordpress'
+      device: '/home/sdesseau/data_bonus/wordpress'
   mariadb:
     driver: local
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/Users/stan/data/mariadb'
+      device: '/home/sdesseau/data_bonus/mariadb'
 
 networks:
   inception:
